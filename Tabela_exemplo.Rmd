@@ -1,0 +1,31 @@
+---
+title: "Tabela com Informações que preciso"
+date: "27 de abril de 2018"
+fontsize: "12pt"
+output:
+  html_document:
+    fig_caption: yes
+    force_captions: yes
+    highlight: pygments
+    toc: yes
+    #Sumário flutuante
+    #toc_float: true
+    #numerar seções
+    number_sections: true
+    #Mostrar ou esconder os códigos (show ou hide)
+    code_folding: hide
+    #Diversos modelos de documentos ver outros em http://bootswatch.com/
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+|nome_completo|nome_instituicao|nome_orgao|cidade|Graduacao|Status|Especializacao|Status|Mestrado|Status|Doutorado|Status|
+|:-----------:|:--------------:|:--------:|:----:|:-------:|:----:|:------------:|:----:|:------:|:----:|:-------:|:----:|
+|             |                |          |      |         |      |              |      |        |      |         |      |
+|             |                |          |      |         |      |              |      |        |      |         |      |
+|             |                |          |      |         |      |              |      |        |      |         |      |
+
